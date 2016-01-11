@@ -1,0 +1,17 @@
+В папке HDFS /data/ находится файл logs.gz:
+
+$hdfs dfs -ls /data/
+Found 1 items
+-rw-r--r--    3  hadoop    hadoop   12755389453 2015-01-01 00:00 /data/logs.gz
+
+Напишите результат выполнения последней команды:
+
+$hdfs dfs -text /data/logs.gz | tail > tail.txt
+$hdfs dfs -mkdir /data/tail
+$hdfs dfs -put tail.txt /data/tail/
+$hdfs dfs -rm /data/logs.gz
+$hdfs dfs -ls /data/ | wc -l
+
+(команда wc -l определяет число строчек во входных данных)
+
+Ответ: 2
