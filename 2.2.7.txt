@@ -1,0 +1,5 @@
+Как лучше скопировать файл file.txt размером 10Тб из папки /data/ в папку /tmp/
+
+$hdfs distcp /data/file.txt /tmp/  +
+$hdfs dfs -cp /data/file.txt /tmp/
+$hdfs dfs -get /data/file.txt . ; hdfs dfs -put file.txt /tmp/ 
