@@ -1,0 +1,11 @@
+C помощью каких функций определяются типы входных key / value для редьюсера? 
+
+
+ Job.setInputKeyClass(KeyType);
+Job.setInputFormatClass(InputClass.class);
+Job.setInputValueClass(ValueType);
+Job.setOutputFormatClass(OutputFormat.class);
+Job.setOutputValueClass(ValueType);
+Job.setMapOutputValueClass(ValueType);   +
+Job.setOutputKeyClass(KeyType);
+Job.setMapOutputKeyClass(KeyType);    +
