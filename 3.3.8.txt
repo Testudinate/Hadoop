@@ -1,0 +1,10 @@
+Какие функции нужно вызвать для описания выходных данных MapReduce задачи?
+
+Job.setOutputKeyClass(KeyType);   +
+Job.setOutputFormatClass(OutputFormat.class);  +
+OutputFormat.setOutputPath(Job, Path);   +
+InputFormat.addInputPath(Job, Path);
+Job.setMapOutputValueClass(ValueType);
+Job.setOutputValueClass(ValueType);  +
+Job.setMapOutputKeyClass(KeyType);
+Job.setInputFormatClass(InputFormat.class); 
