@@ -1,0 +1,8 @@
+Какие варианты соответствуют URI схеме и могут быть использованы в командах shell-клиента HDFS?
+
+hdfs:/localhost:9000//data/log.txt
+hdfs://hdfs/   +
+file:///home/user/  +
+file:/// +
+hdfs:data.txt
+/tmp/output.txt  + 
