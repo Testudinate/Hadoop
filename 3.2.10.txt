@@ -1,0 +1,14 @@
+Какие опциональные функции может реализовать разработчик задачи MapReduce в Hadoop?
+
+sort(key, value)
+map(key, value)
+combine(key, list<value>)   +
+reduce(key, list<value>)
+partition(key, value, reduce_number)   +
+shuffle(key, value) 
+
+----
+
+А куда относят "sort" и "shuffle" ( они входят в map ) ?
+
+Шаг Reduce состоит из 3 этапов: shuffle, sort, reduce
