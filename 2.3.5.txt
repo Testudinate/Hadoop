@@ -1,0 +1,20 @@
+
+
+В папке в HDFS /data/logs хранятся файлы с логами в текстовом виде (.txt) и в сжатом виде (.gz). В названиях файлов указана дата, за которую собраны данные:
+
+$hdfs dfs -l /data/logs/
+Found 1837 items
+...
+-rw-rw-rw-   3   hadoop   hadoop    846552233 /data/logs/2015.09.23.txt
+-rw-rw-rw-   3   hadoop   hadoop     18465354 /data/logs/2015.09.21.gz
+-rw-rw-rw-   3   hadoop   hadoop    829485664 /data/logs/2015.09.21.txt
+-rw-rw-rw-   3   hadoop   hadoop    790837465 /data/logs/2015.10.13.txt
+-rw-rw-rw-   3   hadoop   hadoop     19365374 /data/logs/2015.09.23.gz
+-rw-rw-rw-   3   hadoop   hadoop     18223746 /data/logs/2015.10.13.gz
+...
+
+Из папки /data/logs хотим удалить все (не только два из примера) несжатые файлы с логами за сентябрь 2015 года (выделены жирным). Напишите маску, которая будет соответствовать этим файлам (чтобы ее можно было применить к команде: $hdfs dfs -rm <маска>)
+
+
+
+/data/logs/2015.09.*.txt
