@@ -1,0 +1,19 @@
+C помощью каких команд shell-клиента HDFS можно вывести на экран содержимое файла hello_world.cpp:
+
+// hello_worl﻿d.cpp
+
+#include <iostream>
+ 
+int main()
+{
+    std::cout << "Hello, world!" << std::endl;
+    return 0;
+}
+
+
+-cat       +
+-tail      +
+-get
+-put
+-text      +
+-ls 
