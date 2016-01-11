@@ -1,0 +1,9 @@
+Какие функции могут быть переопределены в пользовательском классе, который наследуется от класса Mapper?
+
+ reduce(KeyIn key, List<valuein> value, Context context)
+init(Context context)
+finish(Context context)
+setup(Context context)    +
+cleanup(Context context)   +
+map(KeyIn key, ValueIn value, Context context)   +
+getKeyValue(Context context) 
