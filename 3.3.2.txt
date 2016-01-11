@@ -1,0 +1,7 @@
+Какой пакет предоставляет новое Java API для MapReduce?
+
+ org.apache.hadoop.mapred_new
+org.apache.hadoop.mapreduce2
+org.hadoop.mapred
+org.apache.hadoop.mapred
+org.apache.hadoop.mapreduce  +
