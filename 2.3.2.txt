@@ -1,0 +1,6 @@
+Какие реализации абстрактного класса FileSystem существуют в HDFS API?
+
+LocalFileSystem  +
+HftpFileSystem  +
+FTPFileSystem   +
+DistributedFileSystem   +
