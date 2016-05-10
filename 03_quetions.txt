@@ -1,0 +1,23 @@
+http://www.slideshare.net/cloudera/hive-impala-and-spark-oh-my-sqlonhadoop-in-cloudera-55
+
+1. Agenda 
+
+History of SQL-on-Hadoop technologies
+Picking the right tool for the job
+What's new with Cloudera 5.5 
+Real-world use cases
+Future of SQL-on-Hadoop
+
+2. MapReduce : The early Yesrs
+The original processing engine for Hadoop
+- Process any type of data in any format 
+- Scale infinitely for multiple, lage jobs
+- Pioneer of bringing compute to data
+
+But ... 
+Difficult to program
+Slow processing
+Limited expressivity ... 
+
+
+
